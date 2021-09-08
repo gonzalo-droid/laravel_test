@@ -8,7 +8,7 @@
 </head>
 <body>
     @if ($errors->any())
-        @foreach ( $errors->all() as  $e    )
+        @foreach ( $errors->all() as  $e)
             <li>{{$e}}</li>
         @endforeach
     
