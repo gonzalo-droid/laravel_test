@@ -8,12 +8,12 @@ use Tests\TestCase;
 
 class PageTest extends TestCase
 {
-    public function testHome() 
-    {
-        $response = $this->get('/');
+    // public function testHome() 
+    // {
+    //     $response = $this->get('/');
         
-        $response->assertStatus(200);
-    }
+    //     $response->assertStatus(200);
+    // }
 
     public function testAbout() 
     {
